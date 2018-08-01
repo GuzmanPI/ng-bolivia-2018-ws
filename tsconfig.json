@@ -15,6 +15,13 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@ngmy-core/*": ["src/app/core/*"],
+      "@ngmy-environments/*": ["src/environments/*"],
+      "@ngmy-app/*": ["src/app/features/*"],
+      "@ngmy-shared/*": ["src/app/shared/*"],
+      "@ngmy-data-models/*": ["src/data-models/*"]
+    }
   }
 }

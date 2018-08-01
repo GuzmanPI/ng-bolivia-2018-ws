@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+button:focus {
+    outline:0;
+}
+
+h1 {
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

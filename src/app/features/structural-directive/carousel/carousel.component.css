@@ -1,0 +1,41 @@
+img {
+    max-height: 500px;
+    min-width: 100%;
+}
+
+.icon {
+    color: lightgray;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: white;
+}
+
+.container {
+    position: relative;
+    max-height: 600px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+}
+
+.left-nav {
+    position: absolute;
+    top: 225px;
+    left: 25px;
+}
+
+.right-nav {
+    position: absolute;
+    top: 225px;
+    right: 25px;
+}

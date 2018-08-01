@@ -1,0 +1,9 @@
+.info {
+    color: #17a2b8;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.info:hover {
+    color: #17afb8;
+}

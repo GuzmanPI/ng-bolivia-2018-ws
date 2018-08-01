@@ -1,0 +1,31 @@
+.ngmy {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.nav-ngbv {
+    background-color: #4e83bc;
+}
+
+.nav-ngbv .navbar-brand {
+    color: white;
+}
+
+.nav-ngbv .nav-link {
+    color: #a7c1de;
+}
+
+.nav-ngbv .nav-link:hover {
+    color: #83a8d0;
+    cursor: pointer;
+}
+
+.active a {
+    color: white !important;
+}
+
+fa-icon {
+    position: absolute;
+    color: white;
+    margin-top: 4px;
+}

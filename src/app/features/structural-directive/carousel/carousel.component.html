@@ -1,0 +1,17 @@
+<div class="container" *appCarousel="let image from images; let ctrl = controller">
+  <img [src]="image.url" [alt]="image.title">
+
+  <div class="text-block">
+    <h4>{{image.title}}</h4>
+    <p>{{image.place}}</p>
+  </div>
+
+  <div class="left-nav">
+    <fa-icon class="icon" [icon]="faChevronCircleLeft" (click)="ctrl.prev()"></fa-icon>
+
+  </div>
+
+  <div class="right-nav">
+    <fa-icon class="icon" [icon]="faChevronCircleRight" (click)="ctrl.next()"></fa-icon>
+  </div>
+</div>
