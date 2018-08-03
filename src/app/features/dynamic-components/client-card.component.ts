@@ -1,5 +1,4 @@
 import {Component, Input, EventEmitter, Output} from '@angular/core';
-import {Client} from '@ngmy-data-models/models';
 
 @Component({
   selector: 'app-alert',
@@ -27,6 +26,6 @@ import {Client} from '@ngmy-data-models/models';
   `
 })
 export class ClientCardComponent {
-  @Input() user: Client;
+  @Input() user: any;
   @Output() output = new EventEmitter();
 }

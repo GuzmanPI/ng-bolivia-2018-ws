@@ -85,6 +85,8 @@ export class DynamicComponentsComponent implements OnDestroy {
   }
 
   ngOnDestroy() {
-    this.componentRef.destroy();
+    if (this.componentRef) {
+      this.componentRef.destroy();
+    }
   }
 }
